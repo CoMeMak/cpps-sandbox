@@ -1,6 +1,7 @@
 {
-  "obstacleDetected" : false,
+  "obstacleDetected" : true,
   "opponentSize" : "small",  
   "destRow" : 4,  
-  "destCol" : 1 
+  "destCol" : 1,
+  "task" : "taskShell = async function() { takePiece2((getValueByKey(response,'opponentSize','string')), (getValueByKey(response,'destRow','int')), (getValueByKey(response,'destCol','int'))); await waitFor('(wait == false)'); };"
 }
